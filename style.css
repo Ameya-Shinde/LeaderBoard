@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+}
+
+body {
+    padding: 50px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+#scoreMainContainer {
+    width: 65%;
+    margin: auto;
+}
+
+.scoreBoard {
+    height: 17vh;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgreen;
+}
+
+.form{
+    margin-top: 1.5rem;
+}
+
+input {
+    padding: 0.8rem;
+    border: 2px solid lightgreen;
+    outline: none;
+}
+
+.scoreBoard p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+button {
+    padding: 0.7rem 2rem;
+    border: none;
+    font-size: 1rem;
+    background-color: lightgreen;
+}
+
+.main_time-stamp{
+    color: grey;
+    font-size: 1rem !important;
+}
+
